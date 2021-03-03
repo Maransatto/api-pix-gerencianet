@@ -19,3 +19,5 @@ O conteúdo deste trabalho pode ser encontrado nestes 3 vídeos do canal do Mara
 
 3. Incluído HTTPClientModule em `app.module.ts`
 
+4. Criada uma estrutura HTML básica para servir de exemplo (em app.component memo)
+
