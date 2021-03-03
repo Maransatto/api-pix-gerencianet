@@ -11,6 +11,8 @@ O conteúdo deste trabalho pode ser encontrado nestes 3 vídeos do canal do Mara
 
 ## Etapas
 
+> Deixei as etapas abaixo separadas por commits para facilitar a compreensão
+
 1. Foi criado o novo projeto angular executando `npm new`;
 
 2. Instalado o bootstrap com o comando `npm i bootstrap`;
@@ -19,5 +21,8 @@ O conteúdo deste trabalho pode ser encontrado nestes 3 vídeos do canal do Mara
 
 3. Incluído HTTPClientModule em `app.module.ts`
 
-4. Criada uma estrutura HTML básica para servir de exemplo (em app.component memo)
+4. Criada uma estrutura HTML básica para servir de exemplo (em app.component mesmo)
+
+5. Criado o serviço `api-gerencianet.service`
+
 
