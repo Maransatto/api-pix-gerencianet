@@ -16,3 +16,6 @@ O conteúdo deste trabalho pode ser encontrado nestes 3 vídeos do canal do Mara
 2. Instalado o bootstrap com o comando `npm i bootstrap`;
 
     2.1. Incluído `bootstrap.min.css` e `bootstrap.min.js` em `angular.json`
+
+3. Incluído HTTPClientModule em `app.module.ts`
+
