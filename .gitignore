@@ -46,4 +46,5 @@ testem.log
 Thumbs.db
 
 # custom
-/src/app/environments/environment.ts
+src/app/environments/environment.ts
+prod282386.p12

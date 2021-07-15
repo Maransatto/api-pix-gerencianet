@@ -1,4 +1,20 @@
 <div class="container mt-4">
+
+  <div class="row">
+    <div class="col">
+      <span class="text-success" *ngIf="autenticado; else naoAutenticado">Autenticado</span>
+      <ng-template #naoAutenticado>
+        <span class="text-danger">Não autenticado</span>
+      </ng-template>
+      <br>
+      <button class="btn btn-sm btn-secondary mt-2 mb-2" *ngIf="!autenticado" (click)="autenticar()">Autenticar</button>
+      <div class="alert alert-danger" role="alert" *ngIf="authError">
+        {{ authError }}
+      </div>
+    </div>
+
+  </div>
+
   <div class="row mt-4">
     <div class="col-6">
       <h1 class="mt-4 mb-4">Geração de Cobrança</h1>
